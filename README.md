@@ -1,17 +1,13 @@
 # EN3160 Assignment 02 – Fitting and Alignment
 
-Notebook: `230502X_a02.ipynb`
-
-## Setup (Windows)
+## Start the virtual environment (Windows)
 ```cmd
 cd /d D:\University\sem5\CV\CV-Assignment-02
+.venv\Scripts\activate
+```
+First time only, create it and install packages before activating:
+```cmd
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
-python check_env.py
-```
-
-## Export to PDF
-```cmd
-jupyter nbconvert --to pdf --template-file config.j2 230502X_a02.ipynb
 ```
